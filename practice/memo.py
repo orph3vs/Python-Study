@@ -18,7 +18,20 @@ print(python.find('n',6,9))
 
 for x in range(1,10):
     print(x)
-'''
+
 from random import *
 for i in range(1,11):
     print(randrange(9,10))
+    
+print(((175/100)*2)*22)
+print(pow(1.75,2)*22)
+print(round(67.375,2))
+'''
+import re
+# a, b = input("입력 두 개 : ").split(',')
+# print(a, b)
+# a = int(a)
+#print(type(a), type(b))
+text = "a, b,c d"
+result = re.split(r'[,\s]+', text)
+print(result)
