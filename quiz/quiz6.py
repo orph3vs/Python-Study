@@ -20,6 +20,5 @@ def std_weight(height, gender):
         print("incorrect input.")
 
 h, g = input("키와 성별을 입력하시오. ex) 175 남자 : ").split()
-print(h, g)
 
 print("키 {0} {1}의 표준 체중은 {2} kg입니다.".format(h, g, round(std_weight(int(h), g),2)))

@@ -72,9 +72,9 @@ def checkpoint(soldiers):
 def checkpoint_ret(gun, soldiers):
     gun = gun - soldiers
     print("[함수 내] 남은 총 : {0}".format(gun))
-    return 1
+    return gun
 
 print("전체 총 : {0}".format(gun))
 #checkpoint(2) # 2명 경계근무
-gun = checkpoint_ret(gun, 2)
+gun = checkpoint_ret(gun, 2) # 인자로 전달할 경우 전역으로 인식?
 print("남은 총 : ", gun)
