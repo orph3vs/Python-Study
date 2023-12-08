@@ -26,7 +26,7 @@ for i in range(1,11):
 print(((175/100)*2)*22)
 print(pow(1.75,2)*22)
 print(round(67.375,2))
-'''
+
 import re
 # a, b = input("입력 두 개 : ").split(',')
 # print(a, b)
@@ -35,3 +35,7 @@ import re
 text = "a, b,c d"
 result = re.split(r'[,\s]+', text)
 print(result)
+'''
+
+List1 = ["abc", "dfg", "hij"]
+print(len(List1))
